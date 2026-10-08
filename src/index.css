@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #00919f;
+  --color-brand-dark: #00737e;
+  --color-accent: #c2185b;
+  --color-page: #f5f5f8;
+  --color-line: #b9b9c0;
+  --font-sans: "Vazirmatn Variable", Tahoma, sans-serif;
+}
+
+body {
+  background: var(--color-page);
+  font-family: var(--font-sans);
+  color: #1f2937;
+  min-height: 100vh;
+}
